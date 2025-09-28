@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@utility text-gradint {
+    /* 06C7FF */
+    @apply bg-linear-to-r from-[#06C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
+
+}
+
+@layer components {
+    .movie-cart {
+        @apply bg-[#3a3a3a] p-5 m-5 rounded-2xl shadow-inner shadow-amber-100 min-w-[20px] inline-block;
+
+        img {
+            @apply rounded-xl h-auto max-w-full
+        }
+    }
+
+}
